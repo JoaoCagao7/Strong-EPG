@@ -1,0 +1,832 @@
+strong_id,secondary_id,match_method
+SportKlub3.hr,SportKlub3.hr,exact/case ID
+SportKlub2.hr,SportKlub2.hr,exact/case ID
+SportKlub1.hr,SportKlub1.hr,exact/case ID
+SportKlub.rs,SportKlub.rs,exact/case ID
+SportKlub6.rs,SportKlub6.rs,exact/case ID
+SportKlub5.rs,SportKlub5.rs,exact/case ID
+SportKlub4.rs,SportKlub4.rs,exact/case ID
+SportKlub3.rs,SportKlub3.rs,exact/case ID
+SportKlub2.rs,SportKlub2.rs,exact/case ID
+SportKlub1.rs,SportKlub1.rs,exact/case ID
+AlJazeeraEnglish.uk,aljazeera.uk,unique regional name
+Boomerang.us,boomerang.us,exact/case ID
+CartoonNetwork.us,cartoonnetwork.us,exact/case ID
+DisneyJunior.us,disneyjunior.us,exact/case ID
+DisneyXD.us,disneyxd.us,exact/case ID
+Nicktoons.us,nicktoons.us,exact/case ID
+Nickelodeon.us,nickelodeon.us,exact/case ID
+BBC2.uk,bbc2.uk,exact/case ID
+BBC4.uk,bbc4.uk,exact/case ID
+ITV1.uk,itv1.uk,exact/case ID
+ITV3.uk,itv3.uk,exact/case ID
+ITV4.uk,itv4.uk,exact/case ID
+Channel5.uk,channel5.uk,exact/case ID
+E4.uk,e4.uk,exact/case ID
+BBC1.uk,bbc1.uk,exact/case ID
+4Seven.uk,4seven.uk,exact/case ID
+Alibi.uk,alibi.uk,exact/case ID
+ITV2.uk,itv2.uk,exact/case ID
+Channel4.uk,channel4.uk,exact/case ID
+BBCNews.uk,bbcnews.uk,exact/case ID
+BBCWorldNews.uk,bbcworldnews.uk,exact/case ID
+BloombergTV.uk,bloomberg.uk,unique regional name
+CNBC.uk,cnbc.uk,exact/case ID
+SkyNews.uk,skynews.uk,exact/case ID
+EuroNews.uk,euronews.uk,exact/case ID
+FoodNetwork.uk,foodnetwork.uk,exact/case ID
+HGTV.uk,hgtv.uk,exact/case ID
+BBCOneWales.uk,bbconewales.uk,exact/case ID
+BBCTwoWales.uk,bbctwowales.uk,exact/case ID
+BBCAlba.uk,bbcalba.uk,exact/case ID
+BBCOneEastMidland.uk,bbconemidlands.uk,unique regional name
+BBCOneOxford.uk,bbconeoxford.uk,exact/case ID
+BBCOneScotland.uk,bbconescotland.uk,exact/case ID
+BBC1Yorkshire.uk,bbconeyorks.uk,unique regional name
+BBCOneNorthWest.uk,bbconenorthwest.uk,exact/case ID
+ITVGranada.uk,itvgranada.uk,exact/case ID
+ITVCentral.uk,itvcentral.uk,exact/case ID
+ITVWales.uk,itvwales.uk,exact/case ID
+BBCScotland.uk,bbcscotland.uk,exact/case ID
+CBeebies.uk,cbeebies.uk,exact/case ID
+Nickelodeon.uk,nickelodeon.uk,exact/case ID
+CartoonNetwork.uk,cartoonnetwork.uk,exact/case ID
+BabyTV.uk,babytv.uk,exact/case ID
+Cartoonito.uk,cartoonito.uk,exact/case ID
+NickJunior.uk,nickjr.uk,explicit alias
+Pop.uk,pop.uk,exact/case ID
+POPMax.uk,popmax.uk,exact/case ID
+Tinypop.uk,tinypop.uk,exact/case ID
+SkyAtlantic.uk,skyatlantic.uk,exact/case ID
+SkyArts.uk,skyarts.uk,exact/case ID
+SkyWitness.uk,skywitness.uk,exact/case ID
+ComedyCentral.uk,comedycentral.uk,exact/case ID
+Eden.uk,eden.uk,exact/case ID
+Blaze.uk,blaze.uk,exact/case ID
+GOLD.uk,UAndGold+1.uk,unique regional name
+Dave.uk,dave.uk,exact/case ID
+STV.uk,stv.uk,exact/case ID
+UTV.uk,utv.uk,exact/case ID
+Quest.uk,quest.uk,exact/case ID
+5star.uk,5star.uk,exact/case ID
+Drama.uk,drama.uk,exact/case ID
+Yesterday.uk,yesterday.uk,exact/case ID
+Challenge.uk,challenge.uk,exact/case ID
+S4C.uk,s4c.uk,exact/case ID
+Really.uk,really.uk,exact/case ID
+QVC.uk,qvc.uk,exact/case ID
+QVCBeauty.uk,qvcbeauty.uk,exact/case ID
+QVCExtra.uk,qvcextra.uk,exact/case ID
+QVCStyle.uk,qvcstyle.uk,exact/case ID
+DiscoveryDMAX.uk,dmax.uk,unique regional name
+PBSAmerica.uk,pbsamerica.uk,exact/case ID
+BestDirect.uk,bestdirect.uk,exact/case ID
+GemsTV.uk,gemstv.uk,exact/case ID
+JMLDirect.uk,bestdirect.uk,unique regional name
+QuestRed.uk,questred.uk,exact/case ID
+TheJewelryChannel.uk,tjc.uk,unique regional name
+TVWarehouse.uk,tvwarehouse.uk,exact/case ID
+SkyCinemaComedy.uk,skycinemacomedy.uk,exact/case ID
+SkyCinemaDrama.uk,skycinemadrama.uk,exact/case ID
+SkyCinemaGreats.uk,skycinemagreats.uk,exact/case ID
+SkyCinemaHits.uk,skycinemahits.uk,exact/case ID
+SkyCinemaPremiere.uk,skycinemapremiere.uk,exact/case ID
+SkyCinemaThriller.uk,skycinemathriller.uk,exact/case ID
+SkyCinemaFamily.uk,skycinemafamily.uk,exact/case ID
+SkyCinemaSciFiHorror.uk,skycinemascifihorror.uk,exact/case ID
+SonyChannel.uk,sonychannel.uk,exact/case ID
+DiscoveryChannel.uk,discoverychannel.uk,exact/case ID
+AnimalPlanet.uk,animalplanet.uk,exact/case ID
+NatGeo.uk,nationalgeographic.uk,unique regional name
+NatGeoWild.uk,natgeowild.uk,exact/case ID
+SkyDocumentaries.uk,skydocumentaries.uk,exact/case ID
+SkyCrime.uk,skycrime.uk,exact/case ID
+SkyNature.uk,skynature.uk,exact/case ID
+DiscoveryHistory.uk,discoveryhistory.uk,exact/case ID
+DiscoveryTurbo.uk,discoveryturbo.uk,exact/case ID
+InvestigationDiscovery.uk,investigationdiscovery.uk,exact/case ID
+Now90s.uk,now90s.uk,exact/case ID
+Now70s.uk,now70s.uk,exact/case ID
+NOW80s.uk,now80s.uk,exact/case ID
+ClublandTV.uk,clublandtv.uk,exact/case ID
+M6.fr,M6.fr,exact/case ID
+TLC.uk,tlc.uk,exact/case ID
+GBNews.uk,news.uk,unique regional name
+SkySportNBA.it,SkySportNBA.it,exact/case ID
+SkySportUno.it,SkySportUno.it,exact/case ID
+SkySportArena.it,SkySportArena.it,exact/case ID
+SkySportF1.it,SkySportF1.it,exact/case ID
+SkySportMotoGP.it,SkySportMotoGP.it,exact/case ID
+Eurosport.it,Eurosport.it,exact/case ID
+SkySport24.it,SkySport24.it,exact/case ID
+SkyComedy.uk,SkyComedy.uk,exact/case ID
+SkyMax.uk,skymax.uk,exact/case ID
+ESPN4.nl,ESPN4.nl,exact/case ID
+Eurosport2.nl,Eurosport2.nl,exact/case ID
+Eurosport1.nl,Eurosport1.nl,exact/case ID
+ABCNewsLive.us,abcnewslive.us,exact/case ID
+News12Brooklyn.us,news12brooklyn.us,exact/case ID
+NewEnglandCableNews.us,newenglandcablenews.us,exact/case ID
+FoxNews.us,foxnews.us,exact/case ID
+FoxBusiness.us,foxbusiness.us,exact/case ID
+WUTV.us,wutvdt.us,ID callsign
+CNBC.us,cnbc.us,exact/case ID
+WCBS.us,wcbs.us,exact/case ID
+KYW.us,kyw.us,exact/case ID
+KMAX.us,kmaxdt.us,ID callsign
+KQCW.us,kqcwdt.us,ID callsign
+CNBCWorld.us,cnbcworld.us,exact/case ID
+CheddarNews.us,cheddarnews.us,exact/case ID
+News12CT.us,news12connecticut.us,unique regional name
+WFSB.us,wfsbdt.us,callsign
+KHON.us,wticdt.us,callsign correction
+SpectrumNews13.us,spectrumnews13.us,exact/case ID
+MonumentalSportsNetwork.us,monumentalsportsnetwork.us,exact/case ID
+PBSKids.us,pbskids.us,exact/case ID
+BabyFirstTV.us,babyfirst.us,unique regional name
+WWE.us,wwe.us,exact/case ID
+WillowCricket.us,willowcricket.us,exact/case ID
+TennisChannel.us,TennisChannel.us,exact/case ID
+MLBNetwork.us,mlbnetwork.us,exact/case ID
+GolfChannel.us,golfchannel.us,exact/case ID
+FoxSports2.us,foxsports2.us,exact/case ID
+FoxSports1.us,foxsports1.us,exact/case ID
+FoxSoccerPlus.us,foxsoccerplus.us,exact/case ID
+ESPNNews.us,espnnews.us,exact/case ID
+ESPN.us,espn.us,exact/case ID
+CBSSportsNetwork.us,cbssportsnetwork.us,exact/case ID
+BigTenNetwork.us,bigtennetwork.us,exact/case ID
+beINSports.us,beINSports.us,exact/case ID
+ComcastSportsnet.us,sportsnetnewyork.us,unique regional name
+YESNetwork.us,yesnetwork.us,exact/case ID
+FuboSportsNetwork.us,fubosportsnetwork.us,exact/case ID
+SpectrumSportsNetLA.us,sportsnetladodgers.us,unique regional name
+FuseTV.us,fuse.us,unique regional name
+NBCSportsPhiladelphia.us,nbcsportsphiladelphia.us,exact/case ID
+NBCSportsCalifornia.us,nbcsportscalifornia.us,exact/case ID
+NBCSportsBayArea.us,nbcsportsbayarea.us,exact/case ID
+AltitudeSports.us,altitudesports.us,exact/case ID
+VH1.us,vh1.us,exact/case ID
+TravelChannel.us,travelchannel.us,exact/case ID
+DiscoveryChannel.us,discoverychannel.us,exact/case ID
+DiscoveryFamily.us,discoveryfamily.us,exact/case ID
+HistoryChannel.us,historychannel.us,exact/case ID
+AMC.us,amc.us,exact/case ID
+Bravo.us,bravo.us,exact/case ID
+ComedyCentral.us,comedycentral.us,exact/case ID
+FXX.us,fxx.us,exact/case ID
+FX.us,fx.us,exact/case ID
+NatGeoWild.us,natgeowild.us,exact/case ID
+NatGeo.us,nationalgeographic.us,unique regional name
+TheWeatherNetwork.ca,theweathernetwork.ca,exact/case ID
+LifetimeMovieNetwork.us,lifetimemovienetwork.us,exact/case ID
+Hallmark.us,hallmark.us,exact/case ID
+MTVLive.us,mtvlive.us,exact/case ID
+MTV.us,mtv.us,exact/case ID
+WeTV.us,wetv.us,exact/case ID
+USANetwork.us,usanetwork.us,exact/case ID
+TVLand.us,tvland.us,exact/case ID
+truTV.us,trutv.us,exact/case ID
+TNT.us,tnt.us,exact/case ID
+Syfy.us,syfy.us,exact/case ID
+SundanceTV.us,sundancetv.us,exact/case ID
+ParamountNetwork.us,paramountnetwork.us,exact/case ID
+SECNetwork.us,secnetwork.us,exact/case ID
+RetroPlex.us,RetroPlex.us,exact/case ID
+Oxygen.us,oxygen.us,exact/case ID
+LifetimeNetwork.us,lifetime.us,unique regional name
+IndiePlex.us,IndiePlex.us,exact/case ID
+IndependentFilmChannel.us,ifc.us,unique regional name
+GameShowNetwork.us,gsn.us,unique regional name
+CoziTV.us,cozitv.us,exact/case ID
+CookingChannel.us,cookingchannel.us,exact/case ID
+BET.us,bet.us,exact/case ID
+BBCAmerica.us,bbcamerica.us,exact/case ID
+CMT.us,cmt.us,exact/case ID
+CrimeInvestigation.us,crimeplusinvestigation.us,unique regional name
+DestinationAmerica.us,destinationamerica.us,exact/case ID
+ACCNetwork.us,accnetwork.us,exact/case ID
+HallmarkDrama.us,hallmarkdrama.us,exact/case ID
+MotorTrend.us,motortrend.us,exact/case ID
+MTV2.us,MTV2.us,exact/case ID
+OutdoorChannel.us,OutdoorChannel.us,exact/case ID
+QVC.us,QVC.us,exact/case ID
+QVCPlus.us,qvc2.us,unique regional name
+TVOne.us,tvone.us,exact/case ID
+AXSTV.us,axstv.us,exact/case ID
+AspireTV.us,aspire.us,unique regional name
+BETGospel.us,betgospel.us,exact/case ID
+BETjams.us,betjams.us,exact/case ID
+BetHer.us,bether.us,exact/case ID
+BETSoul.us,betsoul.us,exact/case ID
+BounceTV.us,bouncetv.us,exact/case ID
+Comet.us,comet.us,exact/case ID
+Daystar.us,DAYSTAR.us,exact/case ID
+Freeform.us,freeform.us,exact/case ID
+Grit.us,grit.us,exact/case ID
+HLN.us,hln.us,exact/case ID
+Logo.us,Logo.us,exact/case ID
+MilitaryHistory.us,militaryhistory.us,exact/case ID
+Ovation.us,ovation.us,exact/case ID
+OutsideTV.us,outsidetv.us,exact/case ID
+PursuitChannel.us,pursuitchannel.us,exact/case ID
+RFDTV.us,rfdtv.us,exact/case ID
+SmithsonianChannel.us,smithsonianchannel.us,exact/case ID
+MadisonSquareGarden.us,msg.us,unique regional name
+MadisonSquareGarden2.us,msg2.us,unique regional name
+INSP.us,INSP.us,exact/case ID
+Revolt.us,revolt.us,exact/case ID
+MadisonSquareGardenPlus.us,msgsnplus.us,unique regional name
+PixLTV.us,PixL.us,unique regional name
+JusticeCentral.us,justicecentral.us,exact/case ID
+DogTV.us,dogtv.us,exact/case ID
+TheCowboyChannel.us,TheCowboyChannel.us,exact/case ID
+AWealthofEntertainment.us,awealthofentertainment.us,exact/case ID
+BuzzrTV.us,buzzr.us,unique regional name
+AdultSwim.us,adultswim.us,exact/case ID
+CourtTV.us,courttv.us,exact/case ID
+GetTV.us,gettv.us,exact/case ID
+HeroesAndIconsTV.us,heroesandiconstv.us,exact/case ID
+RetroTV.us,retrotv.us,exact/case ID
+Tastemade.us,Tastemade.us,exact/case ID
+TBN.us,TBN.us,exact/case ID
+HopeChannel.us,hopechannel.us,exact/case ID
+WGN.us,wgn9chi.us,unique regional name
+AntennaTV.us,antennatv.us,exact/case ID
+PlutoBounceXL.us,bouncexl.us,unique regional name
+ChargeTV.us,charge!.us,unique regional name
+FamilyEntertainment.us,fetv.us,unique regional name
+Starz.us,starz.us,exact/case ID
+StarzEncoreFamily.us,starzencorefamily.us,exact/case ID
+StarzEncore.us,starzencore.us,exact/case ID
+StarzEncoreClassics.us,starzencoreclassics.us,exact/case ID
+StarzEncoreBlack.us,starzencoreblack.us,exact/case ID
+StarzEncoreAction.us,starzencoreaction.us,exact/case ID
+StarzEdge.us,starzedge.us,exact/case ID
+StarzComedy.us,starzcomedy.us,exact/case ID
+StarzCinema.us,starzcinema.us,exact/case ID
+ShowtimeShowcase.us,showtimeshowcase.us,exact/case ID
+Showtime.us,showtime.us,exact/case ID
+Showtime2.us,showtime2.us,exact/case ID
+OuterMax.us,outermax.us,exact/case ID
+MoviePlex.us,movieplex.us,exact/case ID
+MoreMax.us,moremax.us,exact/case ID
+HBOZone.us,hbozone.us,exact/case ID
+HBO.us,hbo.us,exact/case ID
+HBOComedy.us,hbocomedy.us,exact/case ID
+Cinemax.us,cinemax.us,exact/case ID
+ActionMax.us,actionmax.us,exact/case ID
+SonyMovieChannel.us,sonymoviechannel.us,exact/case ID
+StartTV.us,StartTV.us,exact/case ID
+ShowtimeExtreme.us,showtimeextreme.us,exact/case ID
+ShowtimeFamilyZone.us,showtimefamilyzone.us,exact/case ID
+TMC.us,themoviechannel.us,unique regional name
+StarzEncoreWesterns.us,starzencorewesterns.us,exact/case ID
+ShowtimeWomen.us,showtimewomen.us,exact/case ID
+ShowtimeNext.us,showtimenext.us,exact/case ID
+ScreenPixVoices.us,screenpixvoices.us,exact/case ID
+ScreenPixAction.us,screenpixaction.us,exact/case ID
+ScreenPix.us,screenpix.us,exact/case ID
+DiscoveryLife.us,discoverylife.us,exact/case ID
+GreatMovies.uk,greatmovies.uk,exact/case ID
+SkyReplay.uk,skyreplay.uk,exact/case ID
+HighStreet5.uk,highstreettv5.uk,unique regional name
+HighStreet4.uk,highstreettv4.uk,unique regional name
+HighStreet3.uk,highstreettv3.uk,unique regional name
+HighStreet2.uk,highstreettv2.uk,unique regional name
+HighStreet1.uk,highstreettv1.uk,unique regional name
+TogetherTV.uk,together.uk,unique regional name
+IdealWorld.uk,idealworld.uk,exact/case ID
+CourtTV.uk,courttv.uk,exact/case ID
+TalkTV.uk,talktv.uk,exact/case ID
+RTEOne.ie,rteone.ie,exact/case ID
+RTETwo.ie,rtetwo.ie,exact/case ID
+VirginMediaOne.ie,virginmediaone.ie,exact/case ID
+VirginMediaTwo.ie,virginmediatwo.ie,exact/case ID
+VirginMediaThree.ie,virginmediathree.ie,exact/case ID
+TG4.ie,tg4.ie,exact/case ID
+RTENewsNow.ie,rtenewsnow.ie,exact/case ID
+PremierSports1.uk,premiersports1.uk,exact/case ID
+PremierSports2.uk,premiersports2.uk,exact/case ID
+NFLNetwork.us,nflnetwork.us,exact/case ID
+RealityXtra.uk,realityxtra.uk,exact/case ID
+Legend.uk,legend.uk,exact/case ID
+5Action.uk,5action.uk,exact/case ID
+TVCNews.uk,tvcnews.uk,exact/case ID
+KFQX.us,kfqx.us,exact/case ID
+WHAS.us,whas.us,exact/case ID
+KTHV.us,kthv.us,exact/case ID
+KKTV.us,kktv.us,exact/case ID
+WTOC.us,wtoc.us,exact/case ID
+KALB.us,kalb.us,exact/case ID
+KSDK.us,ksdk.us,exact/case ID
+KOBI.us,kobi.us,exact/case ID
+WMC.us,wmc.us,exact/case ID
+WWBT.us,wwbt.us,exact/case ID
+WIAT.us,wiat.us,exact/case ID
+WBMA.us,wabmdt2.us,callsign correction
+WTIC.us,wticdt.us,callsign
+WVTM.us,wvtm.us,exact/case ID
+APTN.ca,aptn.ca,exact/case ID
+CanalSavoir.ca,canalsavoir.ca,exact/case ID
+TV5.ca,tv5.ca,exact/case ID
+CanalD.ca,canald.ca,exact/case ID
+Zeste.ca,zeste.ca,exact/case ID
+LeCanalNouvelles.ca,lcn.ca,unique regional name
+TFO.ca,tfo.ca,exact/case ID
+Telemag.ca,superecran4.ca,unique regional name
+SuperEcran4.ca,superecran4.ca,exact/case ID
+SuperEcran.ca,superecran.ca,exact/case ID
+CanalEvasion.ca,évasion.ca,unique regional name
+ElleFictions.ca,ellefictions.ca,exact/case ID
+CasaTV.ca,casa.ca,ID callsign
+ICIRadioCanadaMontreal.ca,icirdi.ca,unique regional name
+Moicie.ca,moicie.ca,exact/case ID
+SeriesPlus.ca,seriesplus.ca,exact/case ID
+RDS2.ca,rds2.ca,exact/case ID
+RDS.ca,rds.ca,exact/case ID
+Prise2.ca,prise2.ca,exact/case ID
+UnisTV.ca,unistv.ca,exact/case ID
+TVASports2.ca,tvasports2.ca,exact/case ID
+TVA.ca,tva.ca,exact/case ID
+Telemagino.ca,télémagino.ca,unique regional name
+TeletoonFrench.ca,teletoon.ca,unique regional name
+TeleQuebec.ca,telemagquebec.ca,unique regional name
+SuperEcran2.ca,superecran2.ca,exact/case ID
+RDSInfo.ca,rdsinfo.ca,exact/case ID
+RDINews.ca,icirdi.ca,unique regional name
+FrissonsTV.ca,frissonstv.ca,exact/case ID
+DisneyChannel.ca,disneychannel.ca,exact/case ID
+CBMT.ca,cbcmontreal.ca,unique regional name
+CanalVie.ca,canalvie.ca,exact/case ID
+AddikTV.ca,addiktv.ca,exact/case ID
+Teletoon.ca,teletoon.ca,exact/case ID
+Crave1.ca,crave1.ca,exact/case ID
+Crave2.ca,crave2.ca,exact/case ID
+Crave3.ca,crave3.ca,exact/case ID
+Crave4.ca,crave4.ca,exact/case ID
+SuperChannelFuse.ca,superchannelfuse.ca,exact/case ID
+SuperChannelHeartHome.ca,superchannelheart&home.ca,unique regional name
+SuperChannelVAULT.ca,superchannelvault.ca,exact/case ID
+SilverScreenClassics.ca,silverscreenclassics.ca,exact/case ID
+SportsnetOntario.ca,sportsnetontario.ca,exact/case ID
+Sportsnet360.ca,sportsnet360.ca,exact/case ID
+SportsnetEast.ca,sportsneteast.ca,exact/case ID
+SportsnetOne.ca,sportsnetone.ca,exact/case ID
+SportsnetPacific.ca,sportsnetpacific.ca,exact/case ID
+CrimeInvestigation.ca,crimeplusinvestigation.ca,unique regional name
+DiscoveryChannel.ca,discoverychannel.ca,exact/case ID
+DiscoveryVelocity.ca,discoveryvelocity.ca,exact/case ID
+AandE.ca,a&ecanada.ca,unique regional name
+LifetimeTV.ca,lifetime.ca,unique regional name
+Nickelodeon.ca,nickelodeon.ca,exact/case ID
+DisneyJunior.ca,disneyjunior.ca,exact/case ID
+DisneyXD.ca,disneyxd.ca,exact/case ID
+CartoonNetwork.ca,cartoonnetwork.ca,exact/case ID
+AMC.ca,amc.ca,exact/case ID
+CityTVMontreal.ca,citytvmontrealqc.ca,unique regional name
+CityTVToronto.ca,citytvtoronto.ca,exact/case ID
+CTVHC.ca,citytvcalgary.ca,unique regional name
+CTVHT.ca,ctvtoronto.ca,unique regional name
+CJCH.ca,ctvatlantic.ca,unique regional name
+Showcase.ca,showcase.ca,exact/case ID
+ASN.ca,ctv2atlantic.ca,unique regional name
+Explora.ca,iciexplora.ca,unique regional name
+CBCNews.ca,cbcnews.ca,exact/case ID
+CIHF.ca,globalhalifax.ca,unique regional name
+GlobalCalgary.ca,globalcalgary.ca,exact/case ID
+CIII.ca,globaltoronto.ca,unique regional name
+OMNI2.ca,omni2.ca,exact/case ID
+MuchMusic.ca,muchmusic.ca,exact/case ID
+MTV.ca,mtv.ca,exact/case ID
+TSN5.ca,tsn5.ca,exact/case ID
+TSN4.ca,tsn4.ca,exact/case ID
+TSN3.ca,tsn3.ca,exact/case ID
+TSN2.ca,tsn2.ca,exact/case ID
+TSN1.ca,tsn1.ca,exact/case ID
+HBO.ca,hbo1.ca,unique regional name
+Cp24.ca,cp24.ca,exact/case ID
+FXX.ca,fxx.ca,exact/case ID
+NBATV.ca,nbatv.ca,exact/case ID
+SportsmanChannel.ca,sportsman.ca,unique regional name
+MSNBC.ca,msnbc.ca,exact/case ID
+CBC.ca,cbctoronto.ca,unique regional name
+CBRT.ca,cbccalgary.ca,unique regional name
+CBCOttawa.ca,cbcottawa.ca,exact/case ID
+CBUT.ca,cbcvancouver.ca,unique regional name
+CTVOH.ca,ctvottawa.ca,unique regional name
+AMITV.ca,amitv.ca,exact/case ID
+AdultSwim.ca,adultswim.ca,exact/case ID
+Slice.ca,slice.ca,exact/case ID
+FoodNetwork.ca,foodnetwork.ca,exact/case ID
+Makeful.ca,makeful.ca,exact/case ID
+Dtour.ca,dtour.ca,exact/case ID
+CPAC.ca,cpacfrench.ca,unique regional name
+CMT.ca,cmt.ca,exact/case ID
+KATV.us,katv.us,exact/case ID
+KLRT.us,klrt.us,exact/case ID
+KARK.us,kark.us,exact/case ID
+WALA.us,waladt.us,ID callsign
+WJW.us,wjwdt.us,callsign
+WACH.us,wach.us,exact/case ID
+WZDX.us,wzdx.us,exact/case ID
+KFXK.us,kfxk.us,exact/case ID
+WSYM.us,wsym.us,exact/case ID
+WFFF.us,wfff.us,exact/case ID
+WVBT.us,wvbt.us,exact/case ID
+WTNZ.us,wtnz.us,exact/case ID
+WDRB.us,wdrb.us,exact/case ID
+WDBD.us,wdbd.us,exact/case ID
+WDAF.us,wdaf.us,exact/case ID
+KDFI.us,kdfwdt.us,callsign correction
+WUPW.us,wupw.us,exact/case ID
+WRLH.us,wrlh.us,exact/case ID
+KCBA.us,kcba.us,exact/case ID
+WFLD.us,wfld.us,exact/case ID
+KDVR.us,kdvr.us,exact/case ID
+WFOX.us,wfox.us,exact/case ID
+WFLX.us,wflx.us,exact/case ID
+KMPH.us,kmph.us,exact/case ID
+WFXT.us,wfxt.us,exact/case ID
+KOKH.us,kokh.us,exact/case ID
+WTAT.us,wtat.us,exact/case ID
+KSAS.us,ksas.us,exact/case ID
+WXXA.us,wxxa.us,exact/case ID
+KXRM.us,kxrm.us,exact/case ID
+WJBK.us,wjbk.us,exact/case ID
+KTVI.us,ktvi.us,exact/case ID
+KLJB.us,kljb.us,exact/case ID
+WXMI.us,wxmi.us,exact/case ID
+KVRR.us,kvrr.us,exact/case ID
+KADN.us,kadn.us,exact/case ID
+KFOX.us,kfox.us,exact/case ID
+WHBQ.us,whbq.us,exact/case ID
+KSTU.us,kstu.us,exact/case ID
+KPTV.us,kptv.us,exact/case ID
+WCHSDT2.us,wvah.us,callsign correction
+WLUK.us,wluk.us,exact/case ID
+KMSB.us,kmsb.us,exact/case ID
+KSAZ.us,ksaz.us,exact/case ID
+FoxDeportes.us,foxdeportes.us,exact/case ID
+WZTVDT2.us,cwwztvnashville.us,unique regional name
+WBKI.us,cwwbkilouisville.us,ID callsign
+WPSG.us,wpsg.us,exact/case ID
+WLVI.us,cw56wlviboston.us,ID callsign
+WNUV.us,wnuv.us,exact/case ID
+WWHO.us,wwhodt.us,ID callsign
+WXCW.us,cw46wxcwfortmyers.us,ID callsign
+WSFL.us,wsfldt.us,ID callsign
+WTVA.us,wtva.us,exact/case ID
+KREX.us,wncn.us,callsign correction
+KOIN.us,wgme.us,callsign correction
+WWTV.us,wwtv.us,exact/case ID
+WVLT.us,wvlt.us,exact/case ID
+WROC.us,wroc.us,exact/case ID
+WHIO.us,cbswhiodaytonoh.us,callsign
+WWJ.us,wwj.us,exact/case ID
+WLNS.us,wlns.us,exact/case ID
+KAUZ.us,kauz.us,exact/case ID
+KPIX.us,kpix.us,exact/case ID
+KPHO.us,kpho.us,exact/case ID
+KFSM.us,kfsm.us,exact/case ID
+KCTV.us,kctv.us,exact/case ID
+WJAX.us,wjax.us,exact/case ID
+KGPE.us,kgpe.us,exact/case ID
+WANF.us,wanfdt.us,ID callsign
+WEVV.us,wevv.us,exact/case ID
+WWL.us,wwl.us,exact/case ID
+WTTV.us,wttv.us,exact/case ID
+KCNC.us,kcnc.us,exact/case ID
+WIVB.us,wivbdt.us,ID callsign
+WLKY.us,wlky.us,exact/case ID
+WWMT.us,wwmt.us,exact/case ID
+WREG.us,wreg.us,exact/case ID
+WISC.us,wisc.us,exact/case ID
+WCAX.us,wcax.us,exact/case ID
+KMTV.us,kmtv.us,exact/case ID
+KBAK.us,kbak.us,exact/case ID
+WFMY.us,wfmy.us,exact/case ID
+KUTV.us,kutv.us,exact/case ID
+KREM.us,kremdt.us,callsign
+KPSP.us,kpspcd2.us,callsign
+KDKA.us,kdka.us,exact/case ID
+KBOI.us,kboi.us,exact/case ID
+KRQE.us,krqe.us,exact/case ID
+WPRI.us,wpri.us,exact/case ID
+WPEC.us,wpec.us,exact/case ID
+WDEF.us,wdef.us,exact/case ID
+KSLA.us,ksla.us,exact/case ID
+WTOL.us,wtoldt.us,callsign
+KTVT.us,ktvt.us,exact/case ID
+KWTX.us,kwtx.us,exact/case ID
+KOLN.us,koln.us,exact/case ID
+WBZ.us,wsbk.us,callsign correction
+WAFB.us,wafb.us,exact/case ID
+WFAA.us,wfaa.us,exact/case ID
+WLS.us,wls.us,exact/case ID
+KMGH.us,kmgh.us,exact/case ID
+KNXV.us,knxv.us,exact/case ID
+KTRK.us,ktrk.us,exact/case ID
+HallmarkMoviesMysteries.us,hallmarkmoviesmysteries.us,exact/case ID
+CleoTV.us,cleotv.us,exact/case ID
+HomeShoppingNetwork.us,HSN.us,unique regional name
+Euronews.us,euronews.us,exact/case ID
+HBOLatino.us,hbolatino.us,exact/case ID
+AMCThrillers.us,amcthrillers.us,exact/case ID
+FXMovieChannel.us,fxmovies.us,unique regional name
+CheddarBusiness.us,cheddarbusiness.us,exact/case ID
+BlazeTV.us,blazetv.us,exact/case ID
+News12Bronx.us,news12bronx.us,exact/case ID
+NewEnglandSportsNetwork.us,nesn.us,unique regional name
+WSCV.us,wscv.us,exact/case ID
+WNJU.us,wnju.us,exact/case ID
+SKYRacing2.au,skyracing2.au,exact/case ID
+FoxSportsNews.au,foxsportsnews.au,exact/case ID
+beINSports3.au,beinsports3.au,exact/case ID
+beINSports2.au,beinsports2.au,exact/case ID
+beINSports1.au,beinsports1.au,exact/case ID
+10Bold.au,10bold.au,exact/case ID
+AriseNews.uk,arisenews.uk,exact/case ID
+SkySportsGolf.uk,skysportsgolf.uk,exact/case ID
+SkySportsF1.uk,skysportsf1.uk,exact/case ID
+SkySportsMix.uk,skysportsmix.uk,exact/case ID
+SkySportsNews.uk,skysportsnews.uk,exact/case ID
+CKVR.ca,ctv2barrie.ca,unique regional name
+BBCWorld.ca,bbcworldnews.ca,unique regional name
+GlobalNewsBC1.ca,globalnewsbc1.ca,exact/case ID
+NatGeoWild.ca,wildtv.ca,unique regional name
+WNetwork.ca,wnetwork.ca,exact/case ID
+Vision.ca,visiontv.ca,unique regional name
+Treehouse.ca,treehouse.ca,exact/case ID
+SuperEcran3.ca,superecran3.ca,exact/case ID
+OutTV.ca,outtv.ca,exact/case ID
+NatGeo.ca,natgeo.ca,exact/case ID
+MovieTime.ca,movietime.ca,exact/case ID
+ICITeleMontreal.ca,icimontreal.ca,unique regional name
+HGTV.ca,hgtv.ca,exact/case ID
+HBO2.ca,hbo2.ca,exact/case ID
+GlobalBC.ca,globalbc.ca,exact/case ID
+GameTV.ca,gametv.ca,exact/case ID
+FightNetwork.ca,fightnetwork.ca,exact/case ID
+DocumentaryChannel.ca,documentary.ca,unique regional name
+DiscoveryScience.ca,discoveryscience.ca,exact/case ID
+DejaView.ca,dejaview.ca,exact/case ID
+KSTW.us,kstw.us,exact/case ID
+CHRO.ca,ctv2ottawa.ca,unique regional name
+CookingChannel.ca,cookingchannel.ca,exact/case ID
+CityTVVancouver.ca,citytvvancouver.ca,exact/case ID
+Cinepop.ca,cinepop.ca,exact/case ID
+CHCH.ca,chch.ca,exact/case ID
+BusinessNewsNetworkBloomberg.ca,bnn.ca,unique regional name
+TVASports.ca,tvasports.ca,exact/case ID
+SportsnetWest.ca,sportsnetwest.ca,exact/case ID
+SportsnetWorld.ca,sportsnetworld.ca,exact/case ID
+WILLX.us,willowcricket.us,unique regional name
+MagnoliaNetwork.us,magnolianetwork.us,exact/case ID
+KETV.us,ketv.us,exact/case ID
+BrighamYoungUniversity.us,byutv.us,unique regional name
+CBET.ca,cbcwindsor.ca,unique regional name
+TalkingPictures.uk,talkingpictures.uk,exact/case ID
+RacingUK.uk,racing.uk,unique regional name
+TNTSport4.uk,tntsports4.uk,unique regional name
+TNTSport3.uk,tntsports3.uk,unique regional name
+TNTSport2.uk,tntsports2.uk,unique regional name
+TNTSport1.uk,tntsports1.uk,unique regional name
+SkySportsRacing.uk,skysportsracing.uk,exact/case ID
+SkySportsFootball.uk,skysportsfootball.uk,exact/case ID
+SkySportsCricket.uk,skysportscricket.uk,exact/case ID
+SkySportsArena.uk,skysportsplus.uk,unique regional name
+SkySportsPremiereLeague.uk,skysportspremierleague.uk,unique regional name
+SkySportsMainEvent.uk,skysportsmainevent.uk,exact/case ID
+MUTV.uk,mutv.uk,exact/case ID
+SportKlub4.hr,SportKlub4.hr,exact/case ID
+SportKlub5.hr,SportKlub5.hr,exact/case ID
+SportKlub6.hr,SportKlub6.hr,exact/case ID
+SportKlub8.rs,SportKlub8.rs,exact/case ID
+SportKlub9.hr,SportKlub9.hr,exact/case ID
+PremierSports2.ie,PremierSports2.ie,exact/case ID
+PremierSports1.ie,PremierSports1.ie,exact/case ID
+BBCParliament.uk,bbcparliament.uk,exact/case ID
+Laff.us,laff.us,exact/case ID
+SkyKids.uk,skykids.uk,exact/case ID
+TodaysShoppingChoice.ca,tsc.ca,unique regional name
+WFOR.us,wfor.us,exact/case ID
+WTVJ.us,wtvj.us,exact/case ID
+WPLG.us,wplg.us,exact/case ID
+WBFS.us,wbfs.us,exact/case ID
+SkySport9.nz,skysport9.nz,exact/case ID
+SkySport7.nz,skysport7.nz,exact/case ID
+SkySport6.nz,skysport6.nz,exact/case ID
+SkySport5.nz,skysport5.nz,exact/case ID
+SkySport4.nz,skysport4.nz,exact/case ID
+SkySport3.nz,skysport3.nz,exact/case ID
+SkySport2.nz,skysport2.nz,exact/case ID
+SkySport1.nz,skysport1.nz,exact/case ID
+SkySportSelect.nz,skysportselect.nz,exact/case ID
+Smithsonian.ca,smithsonian.ca,exact/case ID
+WNLO.us,cw23wnlobuffalo.us,callsign
+More4.uk,more4.uk,exact/case ID
+Film4.uk,film4.uk,exact/case ID
+Boomerang.uk,boomerang.uk,exact/case ID
+CrimeInvestigation.uk,crimeinvestigation.uk,exact/case ID
+WQRF.us,wqrf.us,exact/case ID
+WTVO.us,wtvo.us,exact/case ID
+CTVComedy.ca,ctvcomedy.ca,exact/case ID
+OneSoccer.ca,onesoccer.ca,exact/case ID
+NewVision.uk,newvision.uk,exact/case ID
+KRCG.us,krcg.us,exact/case ID
+CKCK.ca,ctvregina.ca,unique regional name
+NewEnglandSportsNetworkPlus.us,NESNplus.us,unique regional name
+HubSports3.sg,hubsports3.sg,exact/case ID
+MeTVPlus.us,metvplus.us,exact/case ID
+FoxWeather.us,foxweather.us,exact/case ID
+MeTvToons.us,MeTvToons.us,exact/case ID
+CFQC.ca,ctvsaskatoonsaskatchewan.ca,unique regional name
+Newsmax.us,newsmax.us,exact/case ID
+CFCF.ca,ctvmontreal.ca,unique regional name
+KWGN.us,kwgndt.us,callsign
+CITV.ca,globaledmonton.ca,unique regional name
+SkySportsTennis.uk,skysportstennis.uk,exact/case ID
+Eurosport1.uk,eurosport1.uk,exact/case ID
+WXTX.us,wxtxdt.us,callsign
+WBND.us,wbndld.us,callsign
+WHAM.us,wham.us,exact/case ID
+WKMGDT2.us,dablnetworkllc.us,unique regional name
+SkyAction.uk,skyaction.uk,exact/case ID
+ZiggoSport6.nl,ZiggoSport6.nl,exact/case ID
+ZiggoSport5.nl,ZiggoSport5.nl,exact/case ID
+ZiggoSport4.nl,ZiggoSport4.nl,exact/case ID
+ZiggoSport3.nl,ZiggoSport3.nl,exact/case ID
+ZiggoSport2.nl,ZiggoSport2.nl,exact/case ID
+TUDN.us,tudn.us,exact/case ID
+discoveryscience.ca,discoveryscience.ca,exact/case ID
+natgeo.ca,natgeo.ca,exact/case ID
+natgeowild.ca,nationalgeographicwildcanada.ca,unique regional name
+historia.ca,historia.ca,exact/case ID
+ctvhalifax.ca,ctvhalifax.ca,exact/case ID
+ctvkitchener.ca,ctvkitchener.ca,exact/case ID
+wnetwork.ca,wnetwork.ca,exact/case ID
+omni1.ca,omni1.ca,exact/case ID
+yestv.ca,yestv.ca,exact/case ID
+tlc.ca,tlc.ca,exact/case ID
+ctvscifichannel.ca,ctvscifichannel.ca,exact/case ID
+cottagelife.ca,cottagelife.ca,exact/case ID
+ctvsudbury.ca,ctvsudbury.ca,exact/case ID
+ctvwinnipeg.ca,ctvwinnipeg.ca,exact/case ID
+ctvcalgary.ca,ctvcalgary.ca,exact/case ID
+globaltoronto.ca,globaltoronto.ca,exact/case ID
+globalnewsbc1.ca,globalnewsbc1.ca,exact/case ID
+sportklub6.hr,SportKlub6.hr,exact/case ID
+sportklub5.hr,SportKlub5.hr,exact/case ID
+sportklub4.hr,SportKlub4.hr,exact/case ID
+sportklub3.hr,SportKlub3.hr,exact/case ID
+sportklub2.hr,SportKlub2.hr,exact/case ID
+sportklub1.hr,SportKlub1.hr,exact/case ID
+sportklubgolf.hr,SportKlubGolf.hr,exact/case ID
+sportklub10.hr,SportKlub10.hr,exact/case ID
+sportklub9.hr,SportKlub9.hr,exact/case ID
+sportklub8.hr,SportKlub8.hr,exact/case ID
+sportklub7.hr,SportKlub7.hr,exact/case ID
+m6.fr,M6.fr,exact/case ID
+skysportuno.it,SkySportUno.it,exact/case ID
+skysporttennis.it,SkySportTennis.it,exact/case ID
+skysportmotogp.it,SkySportMotoGP.it,exact/case ID
+skysportmax.it,SkySportMax.it,exact/case ID
+skysportlegend.it,SkySportLegend.it,exact/case ID
+skysportf1.it,SkySportF1.it,exact/case ID
+skysportcalcio.it,SkySportCalcio.it,exact/case ID
+skysportnba.it,SkySportNBA.it,exact/case ID
+skysportarena.it,SkySportArena.it,exact/case ID
+skysport259.it,SkySport259.it,exact/case ID
+skysport258.it,SkySport258.it,exact/case ID
+skysport257.it,SkySport257.it,exact/case ID
+skysport256.it,SkySport256.it,exact/case ID
+skysport255.it,SkySport255.it,exact/case ID
+skysport254.it,SkySport254.it,exact/case ID
+skysport253.it,SkySport253.it,exact/case ID
+skysport252.it,SkySport252.it,exact/case ID
+skysport251.it,SkySport251.it,exact/case ID
+espn4.nl,ESPN4.nl,exact/case ID
+espn2.nl,ESPN2.nl,exact/case ID
+espn3.nl,ESPN3.nl,exact/case ID
+espn.nl,ESPN.nl,exact/case ID
+eurosport1.nl,Eurosport1.nl,exact/case ID
+eurosport2.nl,Eurosport2.nl,exact/case ID
+ziggosport.nl,ZiggoSport.nl,exact/case ID
+skysport9.nz,skysport9.nz,exact/case ID
+skysport7.nz,skysport7.nz,exact/case ID
+skysport6.nz,skysport6.nz,exact/case ID
+skysport5.nz,skysport5.nz,exact/case ID
+skysport4.nz,skysport4.nz,exact/case ID
+skysport3.nz,skysport3.nz,exact/case ID
+skysport2.nz,skysport2.nz,exact/case ID
+skysport1.nz,skysport1.nz,exact/case ID
+espn2.nz,espn2.nz,exact/case ID
+espn.nz,espn.nz,exact/case ID
+skysportselect.nz,skysportselect.nz,exact/case ID
+skysportpremierleague.nz,skysportpremierleague.nz,exact/case ID
+tereo.nz,tereo.nz,exact/case ID
+firstlight.nz,Firstlight.nz,exact/case ID
+rush.nz,rush.nz,exact/case ID
+eden.nz,eden.nz,exact/case ID
+sportklub3.si,SportKlub3.si,exact/case ID
+sportklub2.si,SportKlub2.si,exact/case ID
+sportklub1.si,SportKlub1.si,exact/case ID
+hubsports8.sg,HubSports8.sg,exact/case ID
+hubsports7.sg,HubSports7.sg,exact/case ID
+hubsports6.sg,HubSports6.sg,exact/case ID
+hubsports5.sg,HubSports5.sg,exact/case ID
+hubsports4.sg,HubSports4.sg,exact/case ID
+hubsports3.sg,hubsports3.sg,exact/case ID
+hubsports2.sg,HubSports2.sg,exact/case ID
+hubsports1.sg,HubSports1.sg,exact/case ID
+beinsports5.sg,beINSPORTS5.sg,exact/case ID
+beinsports4.sg,beINSPORTS4.sg,exact/case ID
+beinsports3.sg,beINSPORTS3.sg,exact/case ID
+beinsports2.sg,beINSPORTS2.sg,exact/case ID
+beinsports.sg,beINSPORTS.sg,exact/case ID
+hubpremier8.sg,hubpremier8.sg,exact/case ID
+hubpremier6.sg,hubpremier6.sg,exact/case ID
+hubpremier5.sg,hubpremier5.sg,exact/case ID
+hubpremier4.sg,hubpremier4.sg,exact/case ID
+hubpremier3.sg,hubpremier3.sg,exact/case ID
+hubpremier2.sg,hubpremier2.sg,exact/case ID
+hubpremier1.sg,hubpremier1.sg,exact/case ID
+bbc1.uk,bbc1.uk,exact/case ID
+itv1.uk,itv1.uk,exact/case ID
+itv2.uk,itv2.uk,exact/case ID
+4seven.uk,4seven.uk,exact/case ID
+discoveryscience.uk,discoveryscience.uk,exact/case ID
+tntsports4.uk,tntsports4.uk,exact/case ID
+tntsports3.uk,tntsports3.uk,exact/case ID
+tntsports2.uk,tntsports2.uk,exact/case ID
+tntsports1.uk,tntsports1.uk,exact/case ID
+skyaction.uk,skyaction.uk,exact/case ID
+skysportsf1.uk,skysportsf1.uk,exact/case ID
+skysports2uhd.uk,skysports2.uk,unique regional name
+skysports1uhd.uk,skysports1.uk,unique regional name
+skysportsplus.uk,skysportsplus.uk,exact/case ID
+skysportsmix.uk,skysportsmix.uk,exact/case ID
+skysportsgolf.uk,skysportsgolf.uk,exact/case ID
+skysportscricket.uk,skysportscricket.uk,exact/case ID
+skysportstennis.uk,skysportstennis.uk,exact/case ID
+attheraces.uk,skysportsracing.uk,unique regional name
+skysportsracing.uk,skysportsracing.uk,exact/case ID
+skysportsfootball.uk,skysportsfootball.uk,exact/case ID
+skysportspremiereleague.uk,skysportspremierleague.uk,unique regional name
+skysportsmainevent.uk,skysportsmainevent.uk,exact/case ID
+skysportsnews.uk,skysportsnews.uk,exact/case ID
+nicktoons.uk,nicktoons.uk,exact/case ID
+nickelodeon.uk,nickelodeon.uk,exact/case ID
+nickjunior.uk,nickjr.uk,explicit alias
+mtv.uk,mtv.uk,exact/case ID
+comedycentral.uk,comedycentral.uk,exact/case ID
+cartoonnetwork.uk,cartoonnetwork.uk,exact/case ID
+boomerang.uk,boomerang.uk,exact/case ID
+alibi.uk,alibi.uk,exact/case ID
+skywitness.uk,skywitness.uk,exact/case ID
+skythriller.uk,skythriller.uk,exact/case ID
+skyscifi.uk,skyscifi.uk,exact/case ID
+skynature.uk,skynature.uk,exact/case ID
+skymax.uk,skymax.uk,exact/case ID
+skykids.uk,skykids.uk,exact/case ID
+skyhistory.uk,skyhistory.uk,exact/case ID
+skygreats.uk,skygreats.uk,exact/case ID
+skydrama.uk,skydrama.uk,exact/case ID
+skydocumentaries.uk,skydocumentaries.uk,exact/case ID
+skycrime.uk,skycrime.uk,exact/case ID
+skycomedy.uk,SkyComedy.uk,exact/case ID
+skyatlantic.uk,skyatlantic.uk,exact/case ID
+skyarts.uk,skyarts.uk,exact/case ID
+itv3.uk,itv3.uk,exact/case ID
+premiersports2.uk,premiersports2.uk,exact/case ID
+premiersports1.uk,premiersports1.uk,exact/case ID
+itvquiz.uk,itvquiz.uk,exact/case ID
+msnbc.us,msnbc.us,exact/case ID
+cnn.us,cnn.us,exact/case ID
+sportsmanchannel.us,sportsmanchannel.us,exact/case ID
+discoveryscience.us,discoveryscience.us,exact/case ID
+animalplanet.us,animalplanet.us,exact/case ID
+hgtv.us,hgtv.us,exact/case ID
+reelzchannel.us,reelzchannel.us,exact/case ID
+fyi.us,fyi.us,exact/case ID
+foodnetwork.us,foodnetwork.us,exact/case ID
+investigationdiscovery.us,investigationdiscovery.us,exact/case ID
+fox7wsvn.us,wsvn.us,callsign
+fox50wraz.us,wraz.us,callsign
+foxnews.us,foxnews.us,exact/case ID
+foxbusiness.us,foxbusiness.us,exact/case ID
+abc26wgno.us,wgno.us,ID callsign
+abc11wtvd.us,wtvd.us,ID callsign
+abcwjla.us,wabcdt.us,callsign correction
+news7whdh.us,whdhdt.us,callsign
+nbc5wral.us,wral.us,callsign
+nbcsportsboston.us,nbcsportsboston.us,exact/case ID
+cbeebies.uk,cbeebies.uk,exact/case ID
+cbbc.uk,cbbc.uk,exact/case ID
+cartoonnetworkwest.us,cartoonnetworkwest.us,exact/case ID
+nickelodeonwest.us,nickelodeonwest.us,exact/case ID
+nickjrplus1.uk,NickJr+1.uk,explicit alias
+globalnewsbc.ca,globalnewsbc.ca,exact/case ID
+globalregina.ca,globalregina.ca,exact/case ID
+globalpeterborough.ca,globalpeterborough.ca,exact/case ID
