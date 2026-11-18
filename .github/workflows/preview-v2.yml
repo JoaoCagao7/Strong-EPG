@@ -1,1 +1,70 @@
+name: Test Strong EPG v2 (staging only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: strong-epg-v2-preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify configuration (never print private URLs)
+        env:
+          STRONG_EPG_URL: ${{ secrets.STRONG_EPG_URL }}
+          STRONG_M3U_URL: ${{ secrets.STRONG_M3U_URL }}
+        run: |
+          if [ -z "$STRONG_EPG_URL" ]; then
+            echo 'Missing secret: STRONG_EPG_URL'; exit 1
+          fi
+          if [ -z "$STRONG_M3U_URL" ]; then
+            echo 'Missing secret: STRONG_M3U_URL (full playlist required for complete roster-first test)'; exit 1
+          fi
+
+      - name: Validate generator
+        run: python -m unittest discover -s v2/tests -v
+
+      - name: Build complete playlist-filtered staging guide
+        env:
+          STRONG_EPG_URL: ${{ secrets.STRONG_EPG_URL }}
+          STRONG_M3U_URL: ${{ secrets.STRONG_M3U_URL }}
+        run: |
+          python v2/build.py \
+            --mapping v2/verified-aliases.csv \
+            --require-m3u \
+            --output Strong-EPG-v2-preview.xml.gz \
+            --audit v2/Strong-v2-coverage.csv \
+            --streams v2/Strong-v2-streams.csv
+
+      - name: Publish staging preview only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- Strong-EPG-v2-preview.xml.gz
+          if git diff --cached --quiet; then
+            echo 'Staging XMLTV already current'
+          else
+            git commit -m 'Update v2 staging preview (live guide unchanged)'
+            git push origin HEAD:main
+          fi
+
+      - name: Downloadable coverage reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: Strong-EPG-v2-reports
+          path: |
+            v2/Strong-v2-coverage.csv
+            v2/Strong-v2-streams.csv
+          retention-days: 7
 
