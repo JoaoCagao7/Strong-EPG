@@ -18,6 +18,47 @@ PT_MAP={
  'FuelTV.pt':'Fuel.TV.HD.pt','FightNetwork.pt':'Fight.Network.HD.pt',
 }
 PT_MAP={k.lower():v for k,v in PT_MAP.items()}
+
+# Canadian regional channel names and exact corresponding secondary-guide IDs.
+# Never use a generic national feed as a replacement for a local station.
+CA_REGIONAL = {
+ 'citytvcalgary.ca': 'Citytv Calgary',
+ 'citytvmontrealqc.ca': 'Citytv Montreal',
+ 'citytvsaskatchewanqc.ca': 'Citytv Saskatchewan',
+ 'citytvwinnipeg.ca': 'Citytv Winnipeg',
+ 'ctv2atlantic.ca': 'CTV 2 Atlantic',
+ 'ctv2barrie.ca': 'CTV 2 Barrie',
+ 'ctv2london.ca': 'CTV 2 London',
+ 'ctv2windsor.ca': 'CTV 2 Windsor',
+ 'ctvvancouver.ca': 'CTV Vancouver',
+ 'globalcalgary.ca': 'Global Calgary',
+ 'globaledmonton.ca': 'Global Edmonton',
+ 'globalmontreal.ca': 'Global Montreal',
+ 'globalvancouver.ca': 'Global Vancouver',
+}
+# Keep existing provider IDs for regions with a verified equivalent station.
+CA_ID_ALIASES = {
+ 'CFPL.ca': 'ctv2london.ca',
+ 'CKVR.ca': 'ctv2barrie.ca',
+ 'ASN.ca': 'ctv2atlantic.ca',
+ 'CHWI.ca': 'ctv2windsor.ca',
+ 'CityTVMontreal.ca': 'citytvmontrealqc.ca',
+ 'CityTVSaskatchewan.ca': 'citytvsaskatchewanqc.ca',
+ 'CHMI.ca': 'citytvwinnipeg.ca',
+ 'CKAL.ca': 'citytvcalgary.ca',
+ 'CJNT.ca': 'citytvmontrealqc.ca',
+ 'CIVT.ca': 'ctvvancouver.ca',
+ 'GlobalCalgary.ca': 'globalcalgary.ca',
+ 'CICT.ca': 'globalcalgary.ca',
+ 'CITV.ca': 'globaledmonton.ca',
+ 'CKMI.ca': 'globalmontreal.ca',
+ 'CHAN.ca': 'globalvancouver.ca',
+}
+# News-only subfeeds are not equivalent to CTV network schedules.
+CA_NEWS_UNVERIFIED = {
+ 'CTVNewsEdmonton.ca': 'CTV News Edmonton',
+ 'CTVNewsMontreal.ca': 'CTV News Montreal',
+}
 URL=re.compile(r'https?://[^\s<>"\']+',re.I)
 CRED=re.compile(r'(?i)(?:username|password|passwd|token|api[_-]?key)\s*=\s*[^\s&<>"\']+')
 TAGS={'title','sub-title','desc','category','episode-num','date','language','orig-language','length','rating','star-rating','value','credits','director','actor','writer','producer','presenter','guest','commentator','video','audio','aspect','quality','stereo','previously-shown','premiere','new','live','subtitles','country'}
@@ -184,6 +225,30 @@ def main():
  C={i:list(n) for i,n in P.items()}
  for i,ns in S.items():
   dest=C.setdefault(i,[]);dest.extend(n for n in ns if n not in dest)
+ # Add clearly searchable names for Canadian regional stations and keep Strong
+ # call-sign IDs mapped only to their own city/network programme feed.
+ ca_aliases={}
+ for id,display in CA_REGIONAL.items():
+  if id not in S:continue
+  labels=C.setdefault(id,[])
+  if display in labels:labels.remove(display)
+  labels.insert(0,display)
+  alternate='CA EN: '+display.upper()
+  if alternate not in labels:labels.append(alternate)
+ for alias,target in CA_ID_ALIASES.items():
+  if target not in S or (alias not in P and alias not in S):continue
+  ca_aliases[alias]=target
+  labels=C.setdefault(alias,[])
+  display=CA_REGIONAL[target]
+  if display in labels:labels.remove(display)
+  labels.insert(0,display)
+ # Dedicated regional news streams need dedicated schedules; until one is
+ # verified, make them selectable but show an honest channel-name placeholder.
+ for id,display in CA_NEWS_UNVERIFIED.items():
+  if id not in C:C[id]=[display]
+  elif display not in C[id]:C[id].insert(0,display)
+ print('Canadian regional searchable feeds:',sum(id in S for id in CA_REGIONAL),
+       'Strong native aliases:',len(ca_aliases),flush=True)
  for i in C:
   target=PT_MAP.get(i.lower())
   if target and pt_index.get(target):pt_matches[i]=target
@@ -201,8 +266,9 @@ def main():
   with open(args.mapping,encoding='utf-8-sig') as f:
    for row in csv.DictReader(f):
     if row['secondary_id'] and row['secondary_id'] in S:overrides[row['strong_id']]=(row['secondary_id'],row['match_method'])
+ for alias,target in ca_aliases.items():overrides[alias]=(target,'verified Canadian regional alias')
  M={};methods={}
- for i,ns in P.items():
+ for i,ns in C.items():
   options=bycase.get(i.lower(),set());t=None;method='unmatched'
   if i in overrides:t,method=overrides[i]
   elif options:t=i if i in options else sorted(options)[0];method='exact/case ID'
@@ -237,7 +303,7 @@ def main():
   verified=verified_nfl(i,ns,games,now,end)
   if verified:selected.append(verified);counts['NFL verified matchup windows']+=1
   sources=[(0,i),(1,i)]+([(1,t)] if t!=i else [])
-  if methods.get(i)=='callsign correction' and t!=i:sources=[(1,t)]
+  if methods.get(i) in ('callsign correction','verified Canadian regional alias') and t!=i:sources=[(1,t)]+[(0,i)]
   if i in pt_matches:sources=[(2,pt_matches[i])]+sources
   for k,j in sources:
    # A verified NFL event supersedes the synthetic repeating labels on its stream.
